@@ -10,12 +10,8 @@ class ServiceError extends Error {
             super()
             this.name='ServiceError',
             this.message=message,
-            thiis.explanation=explanation,
+            this.explanation=explanation,
             this.statusCodes=statusCodes
-
-
         }
-
-
 }
 module.exports= ServiceError
